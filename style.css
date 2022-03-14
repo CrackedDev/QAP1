@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Days;
+  src: url(font/Days.ttf);
+}
+body {
+  font-family: Days;
+  color: white;
+  background-color: #0f283e;
+}
+
+button {
+  font-family: Days;
+  color: white;
+  background-color: orange;
+  float: right;
+}
+h3 {
+  text-decoration: underline;
+}
+a {
+  color: orange;
+  background-color: transparent;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0f283e;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+  padding: 5px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+img {
+  box-shadow: 10px 10px 5px #0f283e;
+  border-radius: 25px;
+  padding: 5px;
+}
+#Reproduction {
+  clear: both;
+}
+#Reproduce {
+  float: right;
+}
+figure {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: "font/Days.tff";
+  padding: 3px;
+  text-align: center;
+  max-width: 180px;
+}
+#RepoText {
+  border: white;
+  width: 800px;
+}
+#Summary {
+  clear: both;
+  padding-block: 5px;
+}
